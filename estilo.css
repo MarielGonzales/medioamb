@@ -1,0 +1,123 @@
+
+.contenedor{
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(180, 204, 179);
+    margin: auto;
+
+}
+header{
+    position: absolute;
+    top: 1px;
+    margin: 5px 5px;
+    background: #f6f6f6;
+    color: #7a2020;
+}
+header h3.logo{
+    position: absolute;
+    top: 5px;
+    margin-left: 300px;
+    margin-top: 5px;
+    bottom: 0px;
+    left: 10px;
+    line-height: 40px;
+    width: 250px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #032a01;
+
+}
+
+header nav{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    left: 680px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    color: #dae0d9;
+
+}
+header nav a{
+    text-decoration: none;
+    padding: 0px 3px;
+    color: #7a9376;
+}
+a:hover{
+    background:rgb(101, 122, 107);
+    color: #f6f6f6;
+}
+a:active{
+    background: #6f9879;
+    color: #f6f6f6;
+
+}
+main{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    margin: 7px 7px;
+    width: 650px;
+    height: 620px;
+    background-color:  #84b76b;
+}
+main img{
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+}
+main h1{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+main h3{
+    font-style: italic;
+    margin-left: 35%;
+}
+main p{
+    margin: 15px 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+aside{
+    position: absolute;
+    top: 105px;
+    right: 1px;
+    margin: 2px 1px;
+    width: 343px;
+    height: 620px;
+    background-color: rgb(115, 155, 137);
+
+}
+aside h3{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30ox;
+
+}
+aside img{
+    margin: 5px 5px 5px 50px;
+    border-radius: 10px;
+    width: 260px;
+    height: 180px;
+}
+footer{
+    position: absolute;
+    top: 726px;
+    margin: 1px 1px;
+    background: #2e2e2e;
+    width: 1000px;
+    height: 50px;
+}
